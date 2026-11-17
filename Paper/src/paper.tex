@@ -1,0 +1,41 @@
+%! Author = WelJo
+%! Date = 4/30/2026
+
+% Preamble
+\documentclass[runningheads]{llncs}
+
+% Packages
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\usetikzlibrary{arrows.meta, positioning}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+\urlstyle{rm}
+
+% Document
+\begin{document}
+
+    % Front Matter
+    \input{matters/1_front/1_title}
+    \input{matters/1_front/2_abstract}
+
+    % Body Matter
+
+    % Back Matter
+    \bibliographystyle{splncs04}
+    \bibliography{paper}
+
+    \includepdf[pages=-]{matters/back/Declaration of Authorship and AI Usage.pdf}
+    \includepdf[pages=-]{matters/back/Overview of Used Generative AI Tools and Digital Aids.pdf}
+
+\end{document}
+

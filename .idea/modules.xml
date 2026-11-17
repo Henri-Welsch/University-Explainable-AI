@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Codebase/Codebase.iml" filepath="$PROJECT_DIR$/Codebase/Codebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Paper/Paper.iml" filepath="$PROJECT_DIR$/Paper/Paper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/University-Explainable-AI.iml" filepath="$PROJECT_DIR$/.idea/University-Explainable-AI.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+# Markdown files like notes are never committed
+*.md
+
+# LaTeX build output, including the compiled paper.pdf
+# (the final PDF is added manually with: git add -f Paper/out/paper.pdf)
+Paper/out/
+
+# Source material (papers, thesis, thesis source code); add single files with: git add -f Resources/<file>
+Resources/
+
+# Personal IntelliJ settings (open files, window layout)
+.idea/workspace.xml
